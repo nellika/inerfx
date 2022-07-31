@@ -1,5 +1,12 @@
 # RGB-only six degrees of freedom pose estimation with neural radiance fields
 
+
+<p float="left" text-align='center'>
+  <img src="/assets/imgs/0_afast_i1batch512_TEST.gif" width="32%" />
+  <img src="/assets/imgs/1_bnfast_i2batch512_TEST.gif" width="32%" /> 
+  <img src="/assets/imgs/2_gyfast_i1batch512_TEST.gif" width="32%" />
+</p>
+
 Special thanks to:
 - [https://github.com/bmild/nerf](https://github.com/bmild/nerf)
 - [https://github.com/yenchenlin/nerf-pytorch/](https://github.com/yenchenlin/nerf-pytorch)
@@ -8,7 +15,6 @@ Special thanks to:
 ## Example run
 ```
 python main.py --config configs/lego.txt --model_name dotted_gripper_200000 --obj_name dotted_gripper --kernel_size 5 --batch_size 512 --obs_img_num 0 --delta_phi 7 --delta_theta 2 --delta_psi 5 --experiment test_experiment
-
 ```
 
 ## Used objects & architecture
